@@ -1,0 +1,153 @@
+.bg {
+    background-image: url('person1.jpg');
+    background-size: cover;
+    width: 1519px;
+    height: 721px;
+}
+.navbar-light .navbar-brand {
+    color: gold;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.navbar-light .navbar-brand:hover {
+    color: gold;
+}
+.navbar-nav .nav-item .nav-link {
+    color: snow;
+    font-family: inherit;
+}
+.navbar-nav .nav-item .nav-link:hover {
+    color: gold;
+}
+.title h1 {
+    position: absolute;
+    color: black;
+    letter-spacing: 2px;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%,300%);
+    text-transform: uppercase;
+}
+.title p {
+    position: absolute;
+    color: black;
+    top: 48%;
+    left: 50%;
+    transform: translate(-51%,810%);
+}
+.title a {
+    position: absolute;
+    background-color: black;
+    top: 83%;
+    left: 45.3%;
+}
+.title a:hover {
+    background-color: black;
+}
+.navbar-nav .nav-item .nav-link button:hover{
+    background-color: gold;
+    color: black;
+}
+span {
+    font-weight: bold;
+}
+.page-section .row .col {
+    text-align: center;
+}
+h6 {
+    font-style: italic;
+}
+.photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.modal-dialog {
+    width: 100%;
+    height: 100%;
+    top: 15%;
+}
+.modal-content img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-left: 190px;
+}
+.modal-footer a {
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.icon {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: snow;
+    margin: 10px;
+    border-radius: 50px;
+    box-shadow: 0 5px 15px -5px #00000070;
+    color: black;
+    overflow: hidden;
+    position: relative;
+}
+.icon i {
+    line-height: 50px;
+    font-size: 22px;
+    transition: 0.2s linear;
+}
+.icon i:hover {
+    transform: scale(1.3);
+}
+#message {
+    height: 243px;
+}
+#contact {
+    background-image: url('nasa.jpg');
+}
+#contact h2 {
+    color: gold;
+}
+#name, #email, #phone {
+    height: 70px;
+}
+#sendMessageButton {
+    color: snow;
+    font-weight: bold;
+}
+.footer {
+    background-image: url(footer.jpg);
+}
+.footer span {
+    color: snow;
+}
+.footer a {
+    color: snow;
+}
+#contact p {
+    color: snow;
+    font-style: italic;
+}
+.goTop {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: gold;
+    bottom: 40px;
+    right: 50px;
+    color: snow;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    box-shadow: 0 5px 15px -5px #00000070;
+}
+.goTop:hover {
+    background: gold;
+    color: snow;
+}
